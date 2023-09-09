@@ -1,0 +1,43 @@
+/* 
+
+*/
+
+.banner-bg {
+  background: url(https://i.postimg.cc/T1Bhgt1Y/IMG-20230307-113423.jpg) #000000b0;
+  background-position: 50% 30%;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.profile-picture {
+  height: 350px;
+  width: 300px;
+}
+@media screen and (max-width:776px) {
+  .profile-picture {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.banner .details h5{
+  background-color: brown;
+  display: inline-block;
+  margin: 0;
+  padding: 7px 10px;
+  color: #eee;
+  font-family: 'Nova Mono', monospace;
+}
+.banner .details h4{
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+}
+.banner .details h1, h2{
+  font-family: 'Federant', cursive;
+  font-weight: 900;
+  margin-top: 15px;
+  letter-spacing: 2px;
+
+}
