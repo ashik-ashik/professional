@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#single-blog .blog-details  p,
+#single-blog .blog-details  li
+{
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+#single-blog .blog-details li{
+  margin-bottom: 5px;
+}
+#single-blog .blog-details ul li{
+  list-style-type: square;
+}
+#single-blog .blog-details h3,
+#single-blog .blog-details h4{
+  margin: 25px 0 10px;
+}
